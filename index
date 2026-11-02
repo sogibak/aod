@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+body {
+  margin: 0;
+  height: 100vh;
+  background: rgb(226, 226, 226);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 2px 20vw 30vw 8vw;
+}
+.text_title { font-size: 15pt; font-weight: 400; }
+.text { font-size: 12pt; line-height: 1.6; text-indent: 1.5em; }
+.title {
+  font-weight: 300;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15pt;
+  transform: rotate(-6deg);
+  text-decoration-line: overline;
+  text-decoration-style: dotted;
+  cursor: pointer;
+}
+.title a, .back a { color: inherit; text-decoration: none; cursor: pointer; }
+.layout { display: grid; grid-template-columns: 1fr 2fr; height: 100vh; }
+.content {
+  font-size: 12.5pt;
+  line-height: 1.7;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.llist {
+  transform: rotate(-5deg);
+  display: inline-block;
+  transform-origin: left center;
+  text-decoration-line: overline;
+  text-decoration-style: dotted;
+}
+.llist:hover { transform: rotate(calc(var(--angle, -5deg) * 4)); }
+.list {
+  font-size: 12.5pt;
+  line-height: 1.7;
+  text-decoration-line: overline;
+  text-decoration-style: dotted;
+  padding: 20px;
+  border-right: 1px dotted #ddd;
+}
+.list a { display: block; margin-bottom: 12px; text-decoration: none; color: black; }
+.item { display: none; width: 560px; max-width: 90vw; }
+.item:target { display: block; }
+.viewer { padding: 20px; position: relative; }
+.video-wrap { position: relative; padding-top: 56.25%; }
+.video-wrap iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.viewer .item { display: none; }
+.viewer .placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  text-align: center;
+}
+.placeholder { margin-top: -40px; }
+.viewer .item:target { display: block; }
+.viewer:has(.item:target) .placeholder { display: none; }
+
+
+@media (max-width: 768px) {
+  .layout { display: flex; flex-direction: column; }
+  .list { width: 100%; margin-bottom: 20px; }
+  .viewer { width: 100%; }
+}
+.placeholder:target ~ .item { display: none; }
+    </style>
+    <title>sogi.sogi.love</title>
+    </head>
+
+
+
+    <body>
+    <p class="title">  <a href="#home">제세동기 모음</a></p><br><br> <br><br>
+    <p class="back"> <a href="https://sogithehuman.neocities.org/seonghee">&lt;돌아가기</a></p>
+        <div class="layout">
+  <nav class="list">
+    <p class="llist"> <a href="#1">링고와 아코디언</a></p><br>
+    <p class="llist"> <a href="#4">임윤찬의 라흐마니노프</a></p><br>
+    <p class="llist"> <a href="#7">트랙터와 HWI</a></p><br>
+      <p class="llist"> <a href="#8">진은영 - 청혼</a></p><br>
+           <p class="llist">  <a href="#two">대로변의 Novelbright</a></p><br>
+    <p class="llist"> <a href="#9">이유리 &lt;브로콜리 펀치&gt;</a></p><br>
+            <p class="llist">    <a href="#10">밀란 쿤데라 &lt;정체성&gt;</a></p><br>
+                 <p class="llist"><a href="#6">빈지노-990(feat.김심야)</a></p><br>
+      <p class="llist"> <a href="#3">팔몬과 미나</a></p><br>
+    <p class="llist"><a href="#5">강아지와 드라이브...</a></p><br>
+          <p class="llist"> <a href="#0">...</a></p><br>
+  </nav>
+
+  <section class="viewer">
+
+    
+      <div class="placeholder" id="home">
+  <p><strong>**카테고리 이동 전 기존 영상의 재생을 꼭 멈춰주세요!**</strong><br><br>지독한 저혈압인 성희의 가슴을 뛰게 하는 것들<br>울고 싶어지면 보러오기로 했다.</p>
+  </div>
+
+    <article id="1" class="item">
+ <div class="video-wrap">
+  <iframe
+    src="https://www.youtube.com/embed/ZkjrU0sSBMA"
+    title="Marunouchi Sadistic live"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+  </iframe>
+</div><hr>
+
+      <p class="text_title">동경사변의 marunouchi sadistic 라이브(느낌표 세 개)</p>
+      <p class="text">모든 음악의 라이브 버전들을 각기 다른 곡이라 여겨볼 수 있다. 지금-여기라는 개념부터 <a href="https://www.youtube.com/shorts/CZJj3jRTj80">조명, 온도, 습도</a>... 뭐 여러 관점에서.
+        베이시스트 카메다 세이지의 평소보다 조금 더 익살스러운 카운트다운으로 이 노래가 시작된다. 
+        그 뒤로 이어지는 시이나 링고의 아코디언 연주가 또 다른 마루노우치 새디스틱(들)과의 가장 큰 차이점!
+        보컬 파트가 시작되면, 절도 있게 다리를 모으고 차렷 자세를 유지한 채 최소한의 움직임으로 노래한다.
+        앞을 곧게 응시하는 눈빛은 결연하기 까지 하다.
+        브릿지에서 자세를 다시 고쳐잡고 용맹하게 아코디언을 연주하는데, 그때마다 악기는 최전선의 전사가 부는 금색 나팔이 된다.
+        종아리를 덮는 가죽 부츠가 링고의 호흡을 발끝부터 단단히 감싸 올린다.</p>
+        <p class="text">히라마 마키오는 현재 탈퇴한 기타리스트지만, 베이시스트 세이지와의 호흡이 끝내줬다.
+            링고를 가운데에 두고 각자의 자리에서 연주하는 그들은 2절의 하이라이트에서 가까워진다.(1:54~)
+            금은보화가 든 박을 타는 듯, 엉성한 왈츠를 추는 듯 각자의 악기를 밀고 또 당기면서 말이다.
+            그 얼굴들이 천진해 보는 사람까지 즐거워진다. 재롱잔치 무대에 올라가면 일단 웃고 보라던 유치원 선생님의 다소 폭력적인 가르침을 이해해볼 수도 있겠다. 쓰러지듯 어깨를 맞대거나 서로를 응시하며 이어가는 호흡은 함께 연주하는 밴드
+            음악의 진정한 즐거움을 눈으로 볼 수 있게 해준다.</p>
+        <p class="text">피아니스트 H是都M(HZM이라고 읽는다. 그 또한 탈퇴했다.)의 경쾌하고 발랄한 피아노 연주도 빼놓을 수 없다.
+            그는 인서트 컷으로 영상에 등장하는데 그때마다 바뀌는 그의 자세와 몸짓이
+            이 영상의 감초가 되었다. 노래 초입에는 잘 교육 받은 피아니스트의 모습으로 연주하지만, 그 올곧은 엘리트는 서서히 모습을 감춘다.
+            몸을 앞뒤로 흔들더니 엉덩이를 조금씩 떼기 시작하고, 피아노 의자에 두 발을 딛고 쭈그려 앉은 채 리듬을 몰아가는 것이다.
+            의자 위에 닿은 좁은 발 면적에 아슬아슬해보이지만 그의 피아노 리듬은 결코 흐트러지지 않는다.
+            악기 특성 상 옆 얼굴만 송출되는 것이 보통이지만, 그는 H是都M이다. 양쪽 렌즈의 색이 다른 선글라스를 자랑하듯 장난끼 가득한 표정을 짓고 카메라를 돌아본다.</p>
+      
+      
+    </article>
+
+   
+    <article id="two" class="item">
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/MxkGHm6jcsw"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div><hr>
+      <p class="text_title">Novelbright의 pretender 길거리 라이브 영상</p>
+      <p class="text">악귀에 들려 세상을 허허벌판으로 보고 있던 시절에 혜원이 내게 알려준 영상. 사실 Novelbright가 그렇게 유명한 그룹인 줄 몰랐다. 영상 게시 후 6년이 지난 지금의 이야기이다. 모든 만화의 초입이 즐거운 이유는 명성이나 부 대신 주인공에게 주어진 자유로움에 있다는 사실을 떠올려보자.</p>
+     <!-- <p class="text">무대가 빛나는 이유는 그를 꾸리는 사람들의 노력이 있기 때문이다. 대학로에서 연극을 처음 봤을 때 성희는 눈물을 흘렸는데,
+        무대를 위한 사람들의 분주한 움직임이 눈에 보였기 때문이다. </p>-->
+        <p class="text"> 근사한 이펙터나 신디 없이 정직한 소리를 가진 악기들과 목소리만이 대로변을 꽉 채운다. 
+        절박한 목소리와 손이 터질 듯 치는 젬베, 보컬 타케나카 유다이가 걸친 흰 티 한 장이 이들의 정체성이자 무기가 된다.
+        <a href="https://www.instagram.com/p/DTH18oAEb8N/">솜털 보송한 서브웨이 아르바이트생을 보고 눈물을 흘리고는 딸뻘인 사원에게 커피 타오라고 시켰던 4050 선생님들</a>과 내 자신이 자꾸 겹쳐보여 살짝 힘들어진다. 난 그냥 기특하다는 말을 하고 싶었을 뿐인데...</p>
+        <p class="text">이걸 보고 성희는 다시 일본에 가고 싶어졌다. 그곳에 그들과 완벽히 똑같은 누군가는 없을 테지만 또 다른 멋진 이들이 그 자리를 채우고 있을 것이다.
+     성희에게 세상은 여전히 판잣집 같은 이미지로 남아있지만 그들이 노래할 수 있는 대로변 하나쯤은 놓아질 수 있겠다.</p>
+    </article>
+
+
+    <article id="3" class="item">
+        <div class="video-wrap">
+        <iframe
+ src="https://www.youtube.com/embed/81BPdihHm0k?start=83"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div><hr>
+      <p class="text_title">'디지몬 어드벤처' 마지막화, 팔몬과 미나의 이별</p>
+      <p class="text">'디지몬 어드벤처'의 엔딩곡 '안녕 디지몬'은 평소 들려주던 OST와 결이 다르다.  달려나가는 듯한 기타리프도 없고 찢어지는 보컬도 없다.
+        무엇보다 우리는 언제나 희망과 모험을 노래해왔지 않나... 헤어짐의 노래는 '디지몬 어드벤처'와 어울리지 않는다. 라는 편견은 미나의 모자와 함께 날아가 버렸다. </p>
+           <p class="text">디지몬은 인간형, 짐승형, 곤충형 등 여러 가지 타입으로 나뉘는데,
+        팔몬은 지독한 회피형이었다. 선택 받은 아이들이 현실 세계로 (아마) 영원히 돌아가버리기 전에 각자만의 인사 시간을 갖기로 했다. 매튜는 파피몬에게 하모니카를 불어주었고, 나리는 가트몬의 목에 자신의 호루라기를 걸어주었다. 미나도 팔몬에게 해주고 싶은 것이 많았을 테다.  하지만 팔몬은 이별이 더욱 슬퍼진다는 이유로 미나를 피해 숨어버렸다. (중략......)<!-- 촉박한 시간 아래 팔몬을 찾아나서는 미나의 마음은 만 갈래로 찢어진다.
+      미나는 팔몬을 찾지 못하고 기차에 몸을 싣는다. '팔몬은 정말 바보야!' 유치한 원망과 함께 기차는 출발하고,
+      그때서야 들리는 챱챱챱 소리. 팔몬이 왔다! 기차는 계속해서 움직이고 팔몬도 그에 맞춰 열심히 발을 움직인다.
+      챱챱 울리는 발소리에 물기 가득한 인삿말이 섞여들린다. 그리고 그 흐름을 깨고야마는 단말마... 팔몬이 넘어지고 만 것이다.-->
+        어찌저찌.. 아이들이 탄 기차가 다 떠나기 전에 도착한 팔몬이 기차를 쫓아 뛰며 인사를 전한다.  챱챱 대는 발소리, 물기 가득한 인사들이 섞여 애틋함이 고조되는데, 아 귀찮아 암튼 팔몬이 넘어졌고 그 순간 나오는 단말마 그리고 빙글빙글 날아가는 미나의 모자를 길게 잡아낸 와이드샷. 
+        미나의 모자에 메타포를 넣는다던가, 그런 복잡한 연출은 결코 아니다. 어린 아이들에게 강약과 흐름을 알려주는 좋은 영상 자료라고 설명되기엔 어딘가 부족하다. <!--에반게리온 카오루가 xx 되기 직전 예산 문제로 같은 장면을 8초나 보여주던 씬의 그 긴장감과 비슷하다고 할 수도? 있겠?나?--> 그리고 곧바로  그 위를 덮는 익숙한 멜로디... 내 동년배들은 그렇게 이별을 학습했다.</p>
+      <p class="text">쓰라린 마음을 달래드리기 위해 그들의 <a href="https://youtu.be/9N9lXxzRUnA?si=HNf3Mk6JO9bTyZ6h">재회 영상</a>을 첨부한다. 팔몬의 챱챱거리는 발소리는 여전하다.</p>
+    </article>
+            
+            
+            <article id="4" class="item">
+      <div class="video-wrap">
+<iframe
+  src="https://www.youtube.com/embed/GvKQKnIVy1I?start=1446"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
+      </div><hr>
+      <p class="text_title">임윤찬이 연주하는 라흐마니노프</p>
+      <p class="text">한 줄의 교양도 없던 성희의 눈 앞에 이 영상을 갖다놓은 사람은 강 교수님이었다. 그는 임윤찬을 '컨버스 신고 피아노 치는 사람'이라고 소개했는데, 오른손을 왼손 너머로 거칠게 넘겨, 찍어누르듯 건반을 치는 장면(24:20)에서 그 모습을 수월히 상상할 수 있었다.</p>
+       <p class="text">이 영상을 사랑하는 것인지 멜로디나 특정 장면을 사랑하는 것인지 그와 함께 떠오르는 강 교수님의 수업을 사랑하는 것인지 알 수가 없다. 
+       오케스트라 공연을 하던 친구들이 있어 관련 행사에서 클래식이라는 것을 귀에 담을 기회가 몇 번 있기야 했지만 그를 들을 줄 아는 귀가 있다고 말할 수도 없다. 사진을 공부하는 친구가 말하길, '사진은 그냥 보고, 그냥 느껴!'. 무엇이 얼마나 좋은지 능히 설명할 줄 아는 어른이 되고 싶었고
+      좋은 예술 앞에서 그러한 꿈들이 무색해질 때가 있다. 그에 마냥 슬퍼하기에는 얻는 것들이 너무 많다.</p>
+       <p class="text">이 영상 덕분에 막내 이모와 라흐마니노프 ... 연주회에 다녀올 수 있었다.</p>
+    </article>
+
+<article id="5" class="item">
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/Usxuh5zodLs"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div><hr>
+      <p class="text_title">Phum Viphurit - Welcome Change [Official Video]</p>
+      <p class="text">미안하지만 노래를 귀기울여 들어본 적은 없다. 그냥~ 평화로워서 좋아한다. 그냥그냥그냥</p>
+    </article>
+    
+    <article id="6" class="item">
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/7ff0ymV4gLc"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div><hr>
+      <p class="text_title">빈지노와 김심야의 웃음소리</p>
+      <p class="text">화려하지 않은 리듬을 가진 노래라 좋아하는 것도 맞지만 멜로디 사이로 새어나오는 그들의 웃음소리가 이 음악을 제세동기로 가져다 두었다. 즐기는 사람들 보는 일이 가장 즐겁다. mother fucker 같은 추임새가 멋지다고 생각하는 편은 아니지만 김심야의 재롱(혹은 깐죽거림)이 귀를 자꾸만 간지럽힌다. 목소리도 하필 얇은 편이라 그를 사촌 동생쯤으로 여기게 된달까...  그 사이로 들리는 빈지노의 못 말리겠다는 웃음이 그 유치함을 강조해준다.</p>
+      <p class="text">이 노래가 세상 밖으로 나오도록 해준 뉴발란스 짱~ </p>
+    </article>
+
+
+    <article id="7" class="item">
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube.com/embed/dEBseichzEA"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div><hr>
+      <p class="text_title">휘의 라이브 퍼포먼스</p>
+      <p class="text">나의 영원한 천사. 그의 목소리는 내 정신을 깨워주는 가스펠이며 가슴을 한껏 부풀리는 인공호흡이시다.  "SINGING THE SONG OF TOMORROW". 벌건 불길이 구름을 태우고 하늘이 무너져 내리며 불어오는 모래 바람에 눈도 못 뜨는 지금 이순간에도, 내일에 대한 선언을 감히 해내는 당신이 진정한 승리자일테다. 휘는 나에게 그런 사람이다.</p>
+      <p>휘의 탄탄한 라이브가 논밭에서 펼쳐진다. 트랙터를 모는 권태욱 선생님과 그의 거대한 밭 위를 통통거리며 다니는 조악한 3D 오브제까지. 어긋난 조화에서 새로움은 시작된다.</p>
+      <p class="text">디렉터+컬러와 vfx는 김선영, 촬영은 33도 필름 안현표, 사운드 엔지니어는 우경민, 스타일리스트는 윤이람, 트랙터 운전 및 로케이션은 권태욱.  </p>
+    </article>
+
+
+    <article id="8" class="item">
+      <div class="content">
+        <p>나는 오래된 거리처럼 너를 사랑하고<br>별들은 벌들처럼 웅성거리고<br><br>여름에는 작은 은색 드럼을 치는 것처럼<br>네 손바닥을 두드리는 비를 줄게<br>과거에게 그랬듯 미래에게도 아첨하지 않을게<br><br>어린 시절 순결한 비누 거품 속에서 우리가 했던 맹세들을 찾아<br>
+        너의 팔에 모두 적어줄게<br>내가 나를 찾는 술래였던 시간을 모두 돌려줄게<br><br>나는 오래된 거리처럼 너를 사랑하고<br>벌들은 귓속의 별들처럼 웅성거리고<br><br>나는 인류가 아닌 단 한 여자를 위해<br>쓴 잔을 죄다 마시겠지<br>슬픔이 나의 물컵에 담겨 있다 투명 유리 조각처럼</p>
+        
+      </div><br><hr>
+      <p class="text_title">진은영 청혼</p>
+      <p class="text">2024년 나의 생일에 혜원이 보내준 진은영 시인의 시집. 제일 첫 장에 적힌 '청혼'이 시집의 제목이자 대표작이다. 친구에게 이런 선물을 받아봤음에 인생은 살아볼 만하다고 평소보다 힘을 좀 더 주어 말해볼 수 있겠다. 맨뒷장에 수록된 신형철 선생님의 평론도 꼭 읽어보길 바란다. 존 버거의 소설을 인용한 귀한 말씀을 써주셨다.</p>
+
+    </article>
+    
+    
+        <article id="9" class="item">
+      <div class="content">
+        <p><a href="https://product.kyobobook.co.kr/detail/S000000570638">교보문고에서 보기</a></p>
+        <p class="content">전화를 끊은 뒤 안필순 할머니에게 문자를 남겼다. <strong>원준이 손이 브로콜리가 됐대요 병원 들렀다가 찾아뵐게요</strong> 답장은 내가 샤워를 하고 로션을 바르고 바지에 다리를 꿰어 넣고 있을 때 왔다. <strong>아이고절믄양반이어저다</strong> 나는 미간을 잔뜩 찌푸린 채로 그 열두 글자를 타이핑했을 안필순 할머니와 그 옆에 죽어 있을 말자를 생각했다. 말자는 금세라도 나를 향해 위협적으로 날개를 치며 너 또 왔냐, 계집애, 외치며 꽥꽥댈 것처럼 누워 있지만 이제 다시는 말을 할 수 없겠지, 아마도 가로누운 말자의 몸 위에는 안필순 할머니의 손수건이 덮여 있을 것이고 그건 나도 익히 아는 장미 무늬 손수건, 거기까지 생각하자 그제야 그만 폭 슬퍼지고 말았다. 나는 원준의 집까지 걸어가는 내내 코를 훌쩍거렸다.</p>
+        
+      </div><br><hr>
+      <p class="text_title">이유리의 단편소설 &lt;브로콜리 펀치&gt;</p>
+      <p class="text">2024년 글쓰기 수업에서 받아보았던 pdf 파일. 총 여섯가지의 파일을 받아보았고 이 작품을 읽은 날이 유독 생생하다. 소설가를 직업으로 삼고 계시는 교수님의 친절하고 날카로운 해석도 귀담아 들었다. 그를 잘 정리해둔 프리폼 파일이 있을 것이다.</p> <p class="text">이유리 작가는 말도 안 되는 일들을 담담히 써낸다. 서사들이 통통 끊어지고 튀어 원준의 긴 독백이 더욱 술술 읽힌다. 처음으로 복싱 선수라는 직업에 대해 생각해보았고 남을 때리는 일에 대해 생각해 보았다. '그래서 이제 어떻게 할 건데!' 라는 무서운 말을 잠시 피해볼 수도 있었다. </p><p>이유리 작가의 <a href="https://www.khan.co.kr/article/201912312100005">'빨간 열매'</a>도 
+     꼭 읽어보셔라..
+
+    </article>
+    
+            <article id="10" class="item">
+      <div class="content"><p>“Keep this in mind: it is our religion to praise life. The word "life” is the king of words. The king­word surrounded by other grand words. The word "adventure”! The word "future”! And the word "hope”! By the way, do you know the code name for the atomic bomb they dropped on Hiroshima? "Little Boy”! That's a genius, the fellow who invented that code! They couldn't have dreamed up a better one. Little boy, kid, tyke, tot - there's no word that's more tender, more touching, more loaded with future.”</p><br>
+        <p>"잘 들어. 우리 종교는 생의 찬미야. '생'이란 단어는 단어 중의 왕이지. 이 단어 중의 왕은 '모험!' '미래!'같은 거물급 단어에 둘러싸여 있어. '희망'이란 단어도 있구나. 참, 히로시마에 투하된 원자폭탄 암호명이 뭔지 알아? 리틀 보이! 이 암호를 생각해낸 사람은 천재야. 더 좋은 것은 찾을 수 없었을 거야. 리틀 보이, 어린아이, 꼬맹이, 꼬마라, 이보다 부드럽고 감동적이고 미래에 가득 찬 단어는 없지."</p>
+        
+      </div><br><hr>
+      <p class="text_title">밀란 쿤데라 &lt;정체성&gt;</p>
+      <p class="text">
+     유명한 책은 아니다. 밀란 쿤데라의 명성에 비해서도 그렇다. 그런 이유가 다 있으려니 할 뿐이지만 개인적으로는 그 이유에 <a href="https://namu.wiki/w/남미새">여러 근거</a>를 추가해볼 수 있겠다. <p> 모든 것을 앗아가는 핵폭탄에 little boy라는 이름을 준 사람은 도대체 누구였을까. 반쯤 미쳐있는 사람이었을 것이다. 부정적으로 들리는가? 미쳤다는 말에는 다양한 감정이 고일 수 있다는 점을 기억해주시길. 이후에는 히로시마 상공을 날아다니며 핵 폭탄을 투하한 리틀보이를 두고 '폐허 위에 희망의 황금빛 오줌을 뿌린다'고 설명한다.</p><p class="text">정신적 고난 같은 것이 내게 도래해 세상이 너무 얄팍하거나 혹은 너무 단단해보일 때 읽으면 오히려 역효과가 생길 수도 있다. 생의... 찬미...? 찬미는 찰스엔터고... 내 머리에 핵이나 놔줘 형씨...</p>
+
+    </article>
+
+  </section>
+</div>
+
+
+    </body>
+</html>
