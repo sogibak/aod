@@ -281,6 +281,31 @@ body {
   </section>
 </div>
 
+        
+
 
     </body>
+
+
+    <script>
+  // 처음 페이지에 들어왔을 때 선택된 글
+  let previousItem = document.querySelector('.viewer .item:target');
+
+  // 목록을 클릭하거나 뒤로 가기로 선택 항목이 바뀔 때 실행
+  window.addEventListener('hashchange', () => {
+    const currentItem = document.querySelector('.viewer .item:target');
+
+    if (previousItem && previousItem !== currentItem) {
+      previousItem.querySelectorAll('iframe').forEach((iframe) => {
+        const src = iframe.getAttribute('src');
+
+        if (src) {
+          iframe.setAttribute('src', src);
+        }
+      });
+    }
+
+    previousItem = currentItem;
+  });
+</script>
 </html>
